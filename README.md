@@ -15,4 +15,4 @@ If "tag" is not given, the current head will be built.
 
 ### Published docker image
 
-`docker run --rm -v $(pwd):/output auroraisnear/aurora-engine-build [<tag>]`
+`docker run --rm -v $(pwd):/output nearaurora/aurora-engine-build [<tag>]`
