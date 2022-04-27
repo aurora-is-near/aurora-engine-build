@@ -1,5 +1,5 @@
 # aurora-engine-build
-Dockerized build for aurora-engine
+Dockerized build for aurora-engine (semi reproducible, if prebuilt image is used)
 
 ## Compile docker image
 
