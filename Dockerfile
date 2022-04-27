@@ -51,4 +51,4 @@ WORKDIR /engine
 
 ENTRYPOINT ["/usr/local/bin/compile.sh"]
 
-# docker build -t auroraisnear/engine-compile -f Dockerfile . && docker push auroraisnear/engine-compile
+# docker build -t aurora-engine-build -f Dockerfile .
