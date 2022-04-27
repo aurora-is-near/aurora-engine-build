@@ -11,8 +11,8 @@ If "tag" is not given, the current head will be built.
 
 ### Locally built docker image
 
-`docker run -v $(pwd):/output aurora-engine-build [<tag>]`
+`docker run --rm -v $(pwd):/output aurora-engine-build [<tag>]`
 
 ### Published docker image
 
-`docker run -v $(pwd):/output auroraisnear/aurora-engine-build [<tag>]`
+`docker run --rm -v $(pwd):/output auroraisnear/aurora-engine-build [<tag>]`
