@@ -7,10 +7,12 @@ Dockerized build for aurora-engine
 
 ## Compile aurora-engine with aurora-engine-compile
 
+If "tag" is not given, the current head will be built.
+
 ### Locally built docker image
 
-`docker run -v $(pwd):/output aurora-engine-build`
+`docker run -v $(pwd):/output aurora-engine-build [<tag>]`
 
 ### Published docker image
 
-`docker run -v $(pwd):/output auroraisnear/aurora-engine-build`
+`docker run -v $(pwd):/output auroraisnear/aurora-engine-build [<tag>]`
